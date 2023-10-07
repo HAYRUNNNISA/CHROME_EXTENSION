@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Video Downloader for free",
+    "version": "1.0",
+    "description": "An extension for downloading videos",
+    "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png",
+      "16": "icon16.png"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      },
+      "default_popup": "extension.html"
+    },
+    "background":{
+      "service_worker":"extension.js"
+
+    }
+    
+
+    
+  }
