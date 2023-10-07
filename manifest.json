@@ -4,15 +4,13 @@
     "version": "1.0",
     "description": "A chrome extension for you to download your videos fast and free",
     "icons": {
-      "128": "icon128.png",
-      "48": "icon48.png",
-      "16": "icon16.png"
+      "128": "icon1.jpeg"
+      
     },
     "action": {
       "default_icon": {
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
+        
+        "128": "icon1.jpeg"
       },
       "default_popup": "extension.html"
     },
