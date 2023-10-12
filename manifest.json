@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "VidSaver",
+    "version": "1.0",
+    "description": "A chrome extension for you to download your videos fast and free",
+    "icons": {
+      "128": "icon128.jpeg",
+      "48":"icon48.jpeg",
+      "16":"icon1.jpeg"
+      
+    },
+    "action": {
+      "default_icon": {
+        
+        "128": "icon128.jpeg",
+        "48":"icon48.jpeg",
+        "16":"icon1.jpeg"
+      },
+      "default_popup": "extension.html"
+    }, 
+    "background":{
+      "service_worker":"extension.js"
+
+    }
+    
+
+    
+  }
