@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "VidSaver",
+    "name": "Saver from Ads",
     "version": "1.0",
-    "description": "A chrome extension for you to download your videos fast and free",
+    "description": "A chrome extension that helps the user to skip ads amd enjoy their time without boring ads",
     "icons": {
       "128": "icon128.jpeg",
       "48":"icon48.jpeg",
@@ -18,10 +18,15 @@
       },
       "default_popup": "extension.html"
     }, 
-    "background":{
-      "service_worker":"extension.js"
+    "content_script":[{
+      "js":["extension.js"],
+      "run_at":"document_idle",
+      "matches":["<all_urls>"]
 
-    }
+
+    }],
+    "permissions":
+    ["tabs", "activeTab","notifications"]
     
 
     
