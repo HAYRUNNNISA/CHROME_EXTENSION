@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Saver from Ads",
+    "name": "AdSkipper",
     "version": "1.0",
     "description": "A chrome extension that helps the user to skip ads amd enjoy their time without boring ads",
     "icons": {
