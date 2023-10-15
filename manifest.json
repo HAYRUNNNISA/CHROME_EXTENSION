@@ -26,7 +26,7 @@
 
     }],
     "permissions":
-    ["tabs", "activeTab","notifications"]
+    ["tabs", "activeTab","notifications","webRequest", "webRequestBlocking"]
     
 
     
